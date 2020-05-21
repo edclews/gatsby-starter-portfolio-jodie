@@ -55,7 +55,7 @@ Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfol
     - Blurred loading animation
     - WebP support
     
-## Getting Started
+## Getting Started with SauSaGEs
 
 Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
 - [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
