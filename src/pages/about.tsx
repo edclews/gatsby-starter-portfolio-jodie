@@ -19,6 +19,8 @@ const About = () => {
         [Image here]
 
         <h1>Hi. I'm Ed.</h1>
+
+        <h2>Miaow miaow miaow miaow</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed imperdiet tellus, ac cursus velit. Nunc mattis ante vel urna vestibulum, vitae pulvinar tellus aliquam. Donec tincidunt a erat sit amet imperdiet. Nam congue purus eu ante viverra, a malesuada dui lacinia. Morbi eu lobortis ante, a cursus arcu. Sed dolor augue, vulputate vel lorem sed, rhoncus tincidunt purus. Nam at congue odio. </p>
 
