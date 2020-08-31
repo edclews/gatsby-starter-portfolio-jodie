@@ -19,10 +19,14 @@ const About = () => {
         [Image here]
 
         <h1>Hi. I'm Ed.</h1>
+<<<<<<< Updated upstream
 
         <h2>Miaow miaow miaow miaow</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed imperdiet tellus, ac cursus velit. Nunc mattis ante vel urna vestibulum, vitae pulvinar tellus aliquam. Donec tincidunt a erat sit amet imperdiet. Nam congue purus eu ante viverra, a malesuada dui lacinia. Morbi eu lobortis ante, a cursus arcu. Sed dolor augue, vulputate vel lorem sed, rhoncus tincidunt purus. Nam at congue odio. </p>
+=======
+        <p>I’ve worked on everything from year-long multilingual campaigns in print and digital to small business brochures. I’ve developed event and retail websites, photographed stuffed monkeys and shovelled soggy undies into a skip under the shadow of Battersea Power Station whilst waiting for some artwork to upload </p>
+>>>>>>> Stashed changes
 
           <p>Nunc dictum turpis sapien, a pretium quam venenatis iaculis. Donec eu condimentum massa. Cras interdum felis elit. Suspendisse in pharetra velit, nec consectetur diam. Integer nisi mauris, pulvinar quis iaculis ac, luctus vitae arcu. In risus nisl, dapibus sit amet fermentum vel, pellentesque quis mi. Nam tempus imperdiet sapien ullamcorper accumsan. In at mauris bibendum, luctus nisi et, ultrices nisl.
         </p>
