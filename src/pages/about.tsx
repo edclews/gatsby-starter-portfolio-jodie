@@ -22,7 +22,7 @@ const About = () => {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed imperdiet tellus, ac cursus velit. Nunc mattis ante vel urna vestibulum, vitae pulvinar tellus aliquam. Donec tincidunt a erat sit amet imperdiet. Nam congue purus eu ante viverra, a malesuada dui lacinia. Morbi eu lobortis ante, a cursus arcu. Sed dolor augue, vulputate vel lorem sed, rhoncus tincidunt purus. Nam at congue odio. </p>
 
-        <p>Let's see if this works</p>
+        <p>I deleted the references to instagram and it published finally.</p>
         
           <p>Nunc dictum turpis sapien, a pretium quam venenatis iaculis. Donec eu condimentum massa. Cras interdum felis elit. Suspendisse in pharetra velit, nec consectetur diam. Integer nisi mauris, pulvinar quis iaculis ac, luctus vitae arcu. In risus nisl, dapibus sit amet fermentum vel, pellentesque quis mi. Nam tempus imperdiet sapien ullamcorper accumsan. In at mauris bibendum, luctus nisi et, ultrices nisl.
         </p>
