@@ -23,18 +23,18 @@ type PageProps = {
       }[]
     }
     aboutUs: ChildImageSharp
-    instagram: ChildImageSharp
   }
 }
 
+/* This is a test annotation */
+
 const Area = styled(animated.div)`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 35vw 40vw 25vw;
+  grid-template-columns: repeat(3, 1fr); /* Set amount of columns */
+  grid-template-rows: 30vw 30vw; /* Set row heights */
   grid-template-areas:
     'first-project about-us about-us'
-    'three-projects three-projects three-projects'
-    'instagram instagram instagram';
+    'three-projects three-projects three-projects';
 
   @media (max-width: ${(props) => props.theme.breakpoints[3]}) {
     grid-template-columns: repeat(4, 1fr);
@@ -43,8 +43,7 @@ const Area = styled(animated.div)`
     grid-template-areas:
       'first-project first-project about-us about-us'
       'three-projects three-projects three-projects three-projects'
-      'three-projects three-projects three-projects three-projects'
-      'instagram instagram instagram instagram';
+      'three-projects three-projects three-projects three-projects';
   }
 
   @media (max-width: ${(props) => props.theme.breakpoints[1]}) {
@@ -55,8 +54,7 @@ const Area = styled(animated.div)`
       'first-project about-us'
       'three-projects three-projects'
       'three-projects three-projects'
-      'three-projects three-projects'
-      'instagram instagram';
+      'three-projects three-projects';
   }
 
   @media (max-width: ${(props) => props.theme.breakpoints[0]}) {
@@ -68,8 +66,7 @@ const Area = styled(animated.div)`
       'about-us'
       'three-projects'
       'three-projects'
-      'three-projects'
-      'instagram';
+      'three-projects';
   }
 `
 
@@ -90,10 +87,6 @@ const ThreeProjects = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-`
-
-const Instagram = styled(GridItem)`
-  grid-area: instagram;
 `
 
 const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, threeProjects, aboutUs, instagram } }) => {
@@ -123,10 +116,6 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
             </GridItem>
           ))}
         </ThreeProjects>
-        <Instagram to="/instagram" aria-label="See my Instagram pictures">
-          <Img fluid={instagram.childImageSharp.fluid} />
-          <span>Instagram</span>
-        </Instagram>
       </Area>
     </Layout>
   )
@@ -163,13 +152,6 @@ export const query = graphql`
     aboutUs: file(sourceInstanceName: { eq: "images" }, name: { eq: "about-us" }) {
       childImageSharp {
         fluid(quality: 95, maxWidth: 1200) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    instagram: file(sourceInstanceName: { eq: "images" }, name: { eq: "instagram" }) {
-      childImageSharp {
-        fluid(quality: 95, maxWidth: 1920) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
